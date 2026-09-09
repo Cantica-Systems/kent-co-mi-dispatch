@@ -1,4 +1,7 @@
-# West Michigan Dispatch Archive
+# Kent County MI Dispatch Archive
+
+_(Renamed 2026-09 from "West Michigan Dispatch Archive" — the archive
+covers Kent County and Grand Rapids specifically, not the broader region.)_
 
 This is an append-only public-record archive of live dispatch data from two West
 Michigan sources, preserved before it disappears from the upstream feeds.
