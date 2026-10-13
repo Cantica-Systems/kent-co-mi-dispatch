@@ -22,17 +22,19 @@ agencies encrypt their radio traffic, publishing informal data to keep the publi
 maintain accountability. These departments that publish reasonably realtime data deserve
 recognition for that.
 
-But what's published is **ephemeral** and rolling windows:
+What they published is **ephemeral** and rolling window:
 
-- Grand Rapids' dispatch HTML file is a rolling window of roughly the last 24
+- Grand Rapids' dispatch files are roughly the last 24
   hours of calls. Anything older drops off the page; the city does not
   maintain a public archive.
-- Kent County's ArcGIS endpoint is a live queue. Records flow through and
+- Kent County's ArcGIS endpoint is a live queue of a dynamic number of hours. Records flow through and
   out; the same `OBJECTID` slots get reused as new calls arrive.  Historical incidents are not accessible.
 
 In other words, the agencies publish the data once, briefly, and then
 it's gone, locked behind a FOIA request. Without a third party preserving these snapshots, today's
-dispatch feed is unrecoverable tomorrow without needless administrative burden. That gap is what this repository
+dispatch feed is unrecoverable tomorrow without needless administrative burden. 
+
+That gap is what this repository
 fills, a permanent, byte-for-byte, verifiable record of what the agencies themselves chose to publish.
 
 ## Notes on Kent County's publication
@@ -43,7 +45,7 @@ Kent's dispatch feed publishes lat/lon for some kinds of locations and not other
 - Highways, intersections, and freeway-ramp rows (~4% of rows): lat/lon populated at ~6-decimal precision.
 - Other rows (trails, named landmarks, businesses, ~15%): lat/lon mostly empty, occasionally populated for well-known features.
 
-We don't know the exact rules Kent applies for which records get coords, and the specific publishing decisions are Kent's. The pattern may change at any time.
+We don't know the exact rules Kent applies for which records get coordinates, and the specific publishing decisions are Kent's. The pattern may change at any time.
 
 This archive relays Kent's output verbatim. No geocoding, no enrichment, no precision adjustment.
 
