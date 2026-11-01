@@ -1,0 +1,2 @@
+source,event_time_raw,event_time_utc,event_time_epoch_ms,incident_type,location
+police,10/31/2026 20:05,2026-11-01T00:05:00Z,1793491500000,STOP,UNION AVE SE / OAKDALE ST SE
