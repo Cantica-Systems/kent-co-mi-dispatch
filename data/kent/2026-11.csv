@@ -1,0 +1,2 @@
+objectid,event_time_utc,event_time_epoch_ms,city_twp,display_address,incident_type,agency_type,agency_name,latitude,longitude
+1,2026-11-01T00:02:00Z,1793491320000,WALKER,WILSON AVE NW / LEONARD ST NW,VEHICLE CRASH,Police,WALKER POLICE,,
